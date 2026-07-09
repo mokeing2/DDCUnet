@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+env/
+venv/
+.venv/
+venv.bak/
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Dataset and data caches
+data/
+
+# Checkpoints and model weights
+checkpoints*/
+*.pt
+*.pth
+*.ckpt
+*.h5
+best_*.pt
+
+# Specific checkpoint folders in this repo
+checkpoints_dfeft_levircd/
+checkpoints_smoke/
+checkpoints_smoke_pretrained/
+
+# Pretrained files in data directories
+data/**/best_*.pt
+data/**/pam_net_*.pth
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+*.tmp
+
+# Jupyter
+.ipynb_checkpoints
+
+# macOS
+.DS_Store
+
+# BFG Repo-Cleaner
+bfg.jar
+
+# Windows
+Thumbs.db
+
+# Python packaging
+pip-selfcheck.json
